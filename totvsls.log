@@ -1,0 +1,136 @@
+File verbosity level: 9
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2020-06-04 20:45:08.994 (   0.035s) [                ]             loguru.cpp:755   INFO| Logging to 'totvsls.log', mode: 'w', verbosity: 9
+(   0.035s) [main thread     ]             loguru.cpp:591   | arguments: c:\\Users\\cesar\\.vscode\\extensions\\totvs.tds-vscode-1.0.3/node_modules/@totvs/tds-ls/bin/windows/advpls.exe --language-server --log-file=totvsls.log --record=totvsls
+(   0.035s) [main thread     ]             loguru.cpp:594   | Current dir: d:\Cursos\Next Level Week\server
+(   0.035s) [main thread     ]             loguru.cpp:596   | stderr verbosity: -3
+(   0.035s) [main thread     ]             loguru.cpp:597   | -----------------------------------
+(   0.037s) [main thread     ]    security_manager.cc:806   | lsRsaInit
+(   0.204s) [main thread     ]    security_manager.cc:1012  | userRsaInit
+(   0.221s) [main thread     ]    security_manager.cc:1031  | Loading user prv key.
+(   0.226s) [main thread     ]    security_manager.cc:1062  | Loading user pub key.
+(   0.228s) [main thread     ]    security_manager.cc:1161  | Loading user symm key.
+(   0.241s) [stdout          ]               timer.cc:41    | [e2e] Running  took 0.0 ms
+(   0.241s) [querydb         ]msg_lsp_initialize_requ:507   | Start Running initialize
+(   0.241s) [querydb         ]msg_lsp_initialize_requ:513   | Init parameters: {"compilationDatabaseCommand":"","compilationDatabaseDirectory":"","cacheDirectory":"","cacheFormat":"json","resourceDirectory":"","discoverSystemIncludes":true,"extraClangArguments":[],"progressReportFrequencyMs":500,"emitQueryDbBlocked":false,"emitInactiveRegions":false,"showDocumentLinksOnIncludes":true,"codeLens":{"localVariables":true},"completion":{"enableSnippets":true,"detailedLabel":false,"dropOldRequests":true,"filterAndSort":true,"includeMaxPathSize":30,"includeSuffixWhitelist":[".h",".hpp",".hh",".ch"],"includeBlacklist":[],"includeWhitelist":[]},"formatting":{"enabled":false},"diagnostics":{"blacklist":[],"whitelist":[],"frequencyMs":0,"onParse":true,"onType":true},"highlight":{"enabled":false,"blacklist":[],"whitelist":[]},"index":{"attributeMakeCallsToCtor":true,"blacklist":[],"whitelist":[],"comments":2,"enabled":true,"logSkippedPaths":false,"threads":0},"workspaceSymbol":{"maxNum":1000,"sort":true},"xref":{"maxNum":2000},"enableIndexOnDidChange":false}
+(   0.242s) [querydb         ]msg_lsp_initialize_requ:518   | [querydb] Initialize in directory d:/cursos/next level week/server with uri file:///d%3A/Cursos/Next%20Level%20Week/server
+(   0.242s) [querydb         ]msg_lsp_initialize_requ:575   | Using -resource-dir=d:/cursos/next level week/server/default_resource_directory
+(   0.242s) [querydb         ]msg_lsp_initialize_requ:578   | Send initialization before starting indexers, so we don't send a status update too early.
+(   0.242s) [querydb         ]msg_lsp_initialize_requ:598   | Set project root.
+(   0.242s) [stdout          ]               timer.cc:41    | [e2e] Running initialize took 0.946 ms
+(   0.242s) [querydb         ]               timer.cc:41    | compile_commands.json advpllang time took 0.0 ms
+(   0.242s) [querydb         ]               timer.cc:41    | compile_commands.json our time took 0.0 ms
+(   0.242s) [querydb         ]               timer.cc:41    | [perf] Loaded compilation entries (0 files) took 0.70 ms
+(   0.242s) [querydb         ]msg_lsp_initialize_requ:629   | Starting 3 indexers
+(   0.243s) [querydb         ]               timer.cc:41    | [perf] Dispatched initial index requests took 0.0 ms
+(   0.243s) [querydb         ]msg_lsp_initialize_requ:658   | End Running initialize
+(   0.261s) [querydb         ]msg_lsp_initialized_not:22    | Got Initialized Notification
+(   0.261s) [querydb         ]msg_totvsserver_change_:45    | Start Running $totvsserver/changeSetting
+(   0.261s) [querydb         ]msg_totvsserver_change_:50    | ChangeSetting : with scope advpls, key autocomplete, value LS
+(   0.261s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager ChangeSetting server  took 0.3 ms
+(   0.261s) [querydb         ]msg_totvsserver_change_:94    | End Running $totvsserver/changeSetting
+(   0.261s) [querydb         ]msg_totvsserver_change_:45    | Start Running $totvsserver/changeSetting
+(   0.261s) [querydb         ]msg_totvsserver_change_:50    | ChangeSetting : with scope advpls, key notificationlevel, value errors warnings and infos
+(   0.261s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager ChangeSetting server  took 0.4 ms
+(   0.261s) [querydb         ]msg_totvsserver_change_:94    | End Running $totvsserver/changeSetting
+(   0.261s) [querydb         ]msg_totvsserver_reconne:47    | Start Running $totvsserver/reconnect
+(   0.261s) [querydb         ]msg_totvsserver_reconne:50    | Reconnecting server with connectionToken: djI6Z3I3eTIzenI4N2hrYjB5MnN2c24yaHVjbnByb246MTp6ZDZqeHotcHJkLXByb3RoZXVzLnRvdHZzY2xvdWQuY29tLmJyOjIwMDE6MTo3LjAwLjE3MDExN0E=:djE6emQ2anh6OmFkbWluOktPUUkrYk40c0lQenJkbnR0QWdqVXpINEo0c1hna2JHb0RpbCtLUGdHbFU9|djI6MTU5MTI4NTQzODowOjE6MQ==.PDmcn1WKo9p0KT/e6Irxegzfg+uVfwBElUH979zg/ANt8m0Ux+20NmDALT87PRi61wxak7MdXkZ75umMlJW/xxBwLHhvgGrFfmvoC33fM7s+ovgiFGzhlKvzQj+MBPeFA65p/T3mngVEzgatu22kfJIBTfHzmQ8Fu1ulT6+7qPQsi04iRYB3O6UCxEIXciNOjm9FT0N/h3zF578y5fcjr1OM4hJoTpjOYlPmr0pMkhfDUjt0J7UolRgCFXJA4SvlngrpV0l8AF8swPKyBiMjrxJZozJ8NGh/iWjGuJtBQbY0N1w/KfapMHLbVyUuDthq30MlGGQ1FQIGvzz7j8MuuA==
+(   0.262s) [querydb         ]  connection_manager.cc:296   | Starting reconnection to the server 'Produção'
+(   0.262s) [querydb         ]    security_manager.cc:331   | authentic TRUE
+(   0.262s) [querydb         ]    security_manager.cc:469   | done KOQI+bN4sIPzrdnttAgjUzH4J4sXgkbGoDil+KPgGlU=
+(   0.262s) [querydb         ]    security_manager.cc:479   | done password symmDecrypt (8)
+(   0.262s) [querydb         ]  connection_manager.cc:3031  | ConnectionManager::newConnection: zd6jxz-prd-protheus.totvscloud.com.br:2001 (20170117104539) [1] {3}
+(   0.262s) [querydb         ]  connection_manager.cc:3035  | connected status: 0
+(   0.261s) [stdout          ]               timer.cc:41    | [e2e] Running  took 20.20198 ms
+(   0.262s) [stdout          ]               timer.cc:41    | [e2e] Running $totvsserver/changeSetting took 1.1075 ms
+(   0.262s) [stdout          ]               timer.cc:41    | [e2e] Running $totvsserver/changeSetting took 1.1098 ms
+(   0.262s) [stdout          ]               timer.cc:41    | [e2e] Running  took 21.21058 ms
+(   0.262s) [stdout          ]               timer.cc:41    | [e2e] Running  took 21.21074 ms
+(   0.364s) [querydb         ]  connection_manager.cc:3038  | connected status: 4
+(   0.366s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager Reconnect server error for connectionToken: djI6Z3I3eTIzenI4N2hrYjB5MnN2c24yaHVjbnByb246MTp6ZDZqeHotcHJkLXByb3RoZXVzLnRvdHZzY2xvdWQuY29tLmJyOjIwMDE6MTo3LjAwLjE3MDExN0E=:djE6emQ2anh6OmFkbWluOktPUUkrYk40c0lQenJkbnR0QWdqVXpINEo0c1hna2JHb0RpbCtLUGdHbFU9|djI6MTU5MTI4NTQzODowOjE6MQ==.PDmcn1WKo9p0KT/e6Irxegzfg+uVfwBElUH979zg/ANt8m0Ux+20NmDALT87PRi61wxak7MdXkZ75umMlJW/xxBwLHhvgGrFfmvoC33fM7s+ovgiFGzhlKvzQj+MBPeFA65p/T3mngVEzgatu22kfJIBTfHzmQ8Fu1ulT6+7qPQsi04iRYB3O6UCxEIXciNOjm9FT0N/h3zF578y5fcjr1OM4hJoTpjOYlPmr0pMkhfDUjt0J7UolRgCFXJA4SvlngrpV0l8AF8swPKyBiMjrxJZozJ8NGh/iWjGuJtBQbY0N1w/KfapMHLbVyUuDthq30MlGGQ1FQIGvzz7j8MuuA== took 104.104770 ms
+(   0.366s) [stdout          ]               timer.cc:41    | [e2e] Running $totvsserver/reconnect took 105.105308 ms
+(   0.367s) [querydb         ]msg_totvsserver_reconne:99    | End Running $totvsserver/reconnect
+(   0.367s) [stdout          ]               timer.cc:41    | [e2e] Running  took 125.125342 ms
+(   0.367s) [stdout          ]               timer.cc:41    | [e2e] Running  took 125.125371 ms
+(   1.169s) [scan_includes   ]               timer.cc:41    | [perf] Scanning for includes took 925.925060 ms
+(   5.312s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(   6.477s) [querydb         ]msg_totvsserver_change_:45    | Start Running $totvsserver/changeSetting
+(   6.477s) [querydb         ]msg_totvsserver_change_:50    | ChangeSetting : with scope advpls, key autocomplete, value LS
+(   6.477s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager ChangeSetting server  took 0.4 ms
+(   6.477s) [querydb         ]msg_totvsserver_change_:94    | End Running $totvsserver/changeSetting
+(   6.477s) [querydb         ]msg_totvsserver_change_:45    | Start Running $totvsserver/changeSetting
+(   6.477s) [querydb         ]msg_totvsserver_change_:50    | ChangeSetting : with scope advpls, key notificationlevel, value errors warnings and infos
+(   6.477s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager ChangeSetting server  took 0.4 ms
+(   6.477s) [querydb         ]msg_totvsserver_change_:94    | End Running $totvsserver/changeSetting
+(   6.478s) [stdout          ]               timer.cc:41    | [e2e] Running $totvsserver/changeSetting took 3.3961 ms
+(   6.478s) [stdout          ]               timer.cc:41    | [e2e] Running $totvsserver/changeSetting took 4.4029 ms
+( 124.788s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+( 179.499s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+( 201.383s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+( 202.572s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+( 204.976s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+( 382.780s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+( 609.669s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+( 630.895s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1717.722s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1736.509s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1846.797s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1849.445s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1850.302s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1852.066s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1853.886s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1855.604s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1925.050s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2057.235s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2422.932s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2522.568s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2603.104s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2608.964s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2608.964s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2608.965s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2608.965s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2955.228s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(3139.548s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(3443.708s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4150.657s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4162.436s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4214.720s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4214.721s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4214.721s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4214.721s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4215.580s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4215.581s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4606.525s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4606.525s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4617.798s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4626.014s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4652.852s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4654.865s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4657.484s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4661.129s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4668.030s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4670.259s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4673.786s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4716.806s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4718.476s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4870.130s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4933.595s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4965.890s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(5087.616s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(5190.222s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(5193.010s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(5265.397s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(5287.096s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(66214.990s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(66230.491s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(66573.234s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(66592.384s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(66638.776s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(66640.607s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(67588.600s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(67647.911s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(67652.208s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(67767.755s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(67957.791s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(67958.907s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(67959.892s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
