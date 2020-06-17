@@ -1,13 +1,16 @@
 import path from 'path';
+import dotEnv from 'dotenv';
+
+dotEnv.config();
 
 module.exports = {
 
   client: 'mssql',
   connection: {
-  host : 'DESKTOP-7PG60SS',
-  user : 'sa',
-  password : '123456',
-  database : 'eColeta',
+  host : process.env.HOST ,
+  user : process.env.USER,
+  password : process.env.PASSWORD,
+  database : process.env.DATABASE,
   options: {
     enableArithAbort: true
   }
